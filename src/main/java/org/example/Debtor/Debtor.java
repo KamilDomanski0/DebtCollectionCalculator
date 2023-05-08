@@ -5,17 +5,23 @@ import lombok.Data;
 import javax.persistence.*;
 
 @Entity
+@Table(name = "Debtor")
 @Data
 public class Debtor {
     @Id
     @GeneratedValue
     private int id;
+    @Column(name = "name")
     private String name;
+    @Column(name = "lastName")
     private String lastName;
-    @Column(unique=true)
+    @Column(name = "pesel", unique=true)
     private String pesel;
+    @Column(name = "debtAmount")
     private double debtAmount;
+    @Column(name = "maxMonthlyRepaymentAmount")
     private double maxMonthlyRepaymentAmount;
+    @Column(name = "address")
     private String address;
 
     public Debtor(String name, String lastName, String pesel, double debtAmount, double maxMonthlyRepaymentAmount, String address) {
