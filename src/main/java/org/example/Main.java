@@ -2,15 +2,11 @@ package org.example;
 
 import org.example.Debtor.Debtor;
 import org.example.Debtor.DebtorRepository;
-import org.example.Debtor.DebtorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-<<<<<<< HEAD
-=======
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.event.EventListener;
->>>>>>> 1cb6552 (added postresql)
 
 @SpringBootApplication
 public class Main {
