@@ -1,6 +1,0 @@
-org\example\Debtor\Debtor.class
-org\example\Main.class
-org\example\Debtor\DebtorController.class
-org\example\Debtor\DebtorRepository.class
-org\example\Debtor\DebtorService.class
-org\example\Debtor\DebtorValidationService.class
